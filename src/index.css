@@ -9,12 +9,12 @@
     list-style: none;
     text-decoration: none;
 }
-
+/* 419D78 */
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-bg: #2e3e4a;
+    --color-bg-variant: #558B6E;     
+    --color-primary: #CDEDF6;   
+    --color-primary-variant: #9A8C98;
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
 

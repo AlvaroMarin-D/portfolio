@@ -39,7 +39,7 @@
 
 .about_card:hover {
     background: transparent;
-    border-color:var(--color-bg-variant) ;
+    border-color:var(--color-primary-variant) ;
     transition: var(--transition);
     cursor: default;
 }
