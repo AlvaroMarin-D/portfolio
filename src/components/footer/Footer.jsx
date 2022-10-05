@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
-import {BsFacebook,BsInstagram,BsTwitter} from 'react-icons/bs'
+import {BsLinkedin,BsGithub} from 'react-icons/bs'
+import {TbCertificate} from 'react-icons/tb'
 
 const Footer = () => {
   return (
@@ -17,9 +18,9 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer_socials">
-        <a href="https://facebook.com"> <BsFacebook/> </a>
-        <a href="https://instagram.com"> <BsInstagram/> </a>
-        <a href="https://twitter.com"> <BsTwitter/> </a>
+        <a href="https://www.linkedin.com/in/alvaro-marin77/" target="_blank" rel='noreferrer'> <BsLinkedin/> </a>
+        <a href="https://github.com/AlvaroMarin-D" target="_blank" rel='noreferrer'> <BsGithub/> </a>
+        <a href="https://www.credly.com/users/alvaromarin" target="_blank" rel='noreferrer'> <TbCertificate/> </a>
       </div>
 
       <div className="footer_copyright">

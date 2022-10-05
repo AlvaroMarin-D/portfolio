@@ -1,8 +1,8 @@
 import React, {useRef} from 'react';
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
-import {RiMessengerLine,RiWhatsappLine} from 'react-icons/ri'
 import emailjs from 'emailjs-com'
+import {BsLinkedin,BsFillTelephoneFill} from 'react-icons/bs'
 
 const Contact = () => {
   const form = useRef();
@@ -23,20 +23,20 @@ const Contact = () => {
           <article className='contact_option'>
             <HiOutlineMail className='contact_option-icon'/>
             <h4>Email</h4>
-            <h5>alvaro.m1818@gmail.com</h5>
-            <a href="mailto:alvaro.m1818@gmail.com"target="_blank" rel='noreferrer'>Send a message</a>
+            <h5>alvaromarin.d@gmail.com</h5>
+            <a href="mailto:alvaromarin.d@gmail.com"target="_blank" rel='noreferrer'>Send an email</a>
           </article>
           <article className='contact_option'>
-            <RiMessengerLine className='contact_option-icon'/>
-            <h4>Messenger</h4>
+            <BsLinkedin className='contact_option-icon'/>
+            <h4>Linkedin</h4>
             <h5>Alvaro Marin</h5>
-            <a href="https://github.com" target="_blank" rel='noreferrer'>Send a message</a>
+            <a href="https://www.linkedin.com/in/alvaro-marin77/" target="_blank" rel='noreferrer'>View Profile</a>
           </article>
           <article className='contact_option'>
-            <RiWhatsappLine className='contact_option-icon'/>
-            <h4>WhatsApp</h4>
+            <BsFillTelephoneFill className='contact_option-icon'/>
+            <h4>Phone</h4>
             <h5>613 806 6868</h5>
-            <a href="https://api.whatsapp.com/send?phone=+16138066868"target="_blank" rel='noreferrer'>Send a message</a>
+            <a href="tel:613-806-6868"target="_blank" rel='noreferrer'>Give a Call</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

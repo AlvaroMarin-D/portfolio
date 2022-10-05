@@ -9,10 +9,11 @@
     list-style: none;
     text-decoration: none;
 }
-/* 419D78 */
+
+
 :root {
     --color-bg: #2e3e4a;
-    --color-bg-variant: #558B6E;     
+    --color-bg-variant: #1B998B;     
     --color-primary: #CDEDF6;   
     --color-primary-variant: #9A8C98;
     --color-white: #fff;

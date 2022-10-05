@@ -3,7 +3,7 @@ import './testimonials.css'
 import Avatar1 from '../../assets/avatar1.jpg';
 import Avatar2 from '../../assets/avatar2.jpg';
 import Avatar3 from '../../assets/avatar3.jpg';
-import Avatar4 from '../../assets/avatar4.jpg';
+
 
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,30 +15,26 @@ import {Autoplay, Pagination, Navigation } from "swiper";
 const testData = [
   {
     Avatar:Avatar1,
-    name: 'Tina Snow',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi quia impedit beatae sed facilis mollitia. Excepturi cumque eaque, architecto officia laudantium illum quibusdam sapiente deleniti, nobis ipsam iste aliquid.'
+    name: 'Joel Mathew',
+    review:'A true professional that loves to contribute ideas and ensures fellow teammates are all on the same page'
   },
   {
     Avatar:Avatar2,
-    name: 'Tina Snow',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi quia impedit beatae sed facilis mollitia. Excepturi cumque eaque, architecto officia laudantium illum quibusdam sapiente deleniti, nobis ipsam iste aliquid.'
+    name: 'Zena Bamboat',
+    review:'Has a appetite for learning and is constantly looking for ways to improve and move forward'
   },
   {
     Avatar:Avatar3,
-    name: 'Tina Snow',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi quia impedit beatae sed facilis mollitia. Excepturi cumque eaque, architecto officia laudantium illum quibusdam sapiente deleniti, nobis ipsam iste aliquid.'
+    name: 'Jordan Brazu-Henrie',
+    review:'Demonstrates leadership qualities and is able to find solutions to problems in a quick and effective way'
   },
-  {
-    Avatar:Avatar4,
-    name: 'Tina Snow',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi quia impedit beatae sed facilis mollitia. Excepturi cumque eaque, architecto officia laudantium illum quibusdam sapiente deleniti, nobis ipsam iste aliquid.'
-  },
+
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
+      <h5>Review from people</h5>
       <h2>Testimonials</h2>
 
       <Swiper 

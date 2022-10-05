@@ -1,7 +1,8 @@
 import React from 'react'
 import './about.css';
 import ME from '../../assets/me-about.jpg';
-import {FaAward,FaUsers,FaRegFolderOpen} from 'react-icons/fa';
+import {FaAward,FaRegFolderOpen} from 'react-icons/fa';
+import {IoSchoolSharp} from 'react-icons/io5'
 
 const About = () => {
   return (
@@ -21,24 +22,26 @@ const About = () => {
               <article className='about_card'>
                 <FaAward className='about_icon'/>
                 <h5>Experience</h5>
-                <small>3+years working</small>
+                <small>5+years Learning</small>
               </article>
 
               <article className='about_card'>
-                <FaUsers className='about_icon'/>
-                <h5>Clients</h5>
-                <small>200+ Worldwide</small>
+                <IoSchoolSharp className='about_icon'/>
+                <h5>School</h5>
+                <small>Carleton University</small>
               </article>
 
               <article className='about_card'>
                 <FaRegFolderOpen className='about_icon'/>
                 <h5>Projects</h5>
-                <small>80+ completed</small>
+                <small>6+ completed</small>
               </article>
 
             </div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio quo ratione dolorum, molestiae amet nulla tempore fugiat neque. Minima quidem sapiente eum reiciendis fugiat, placeat a amet dignissimos voluptates laborum?
+              Passionate Electrical Engineering Graduate from Carleton University with a strong interest in web/software development.
+              Created various applications in order to improve and showcase developer skills. Seeking opportunities to further grow my 
+              career as a developer.
             </p>
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           </div>
