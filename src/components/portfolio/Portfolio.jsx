@@ -21,7 +21,7 @@ const data = [
     image:Img2,
     title: 'Dashboard',
     github: 'https://github.com/AlvaroMarin-D/dashboard',
-    demo: 'https://dashboard-amber-two.vercel.app/',
+    demo: 'https://dashboard-alvaromarin-d.vercel.app/',
     desc: 'Frontend application, to showcase basic frontend skills. Demonstrates basic routing, layout and styling. Does not contain full functionality(backend). Contains different theming options. Technologies: React, Nodejs, Syncfusion'
   },
   {
